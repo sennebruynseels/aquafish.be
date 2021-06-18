@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AQUAFISH</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link href="css/lightbox.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	 <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+	<header>	
+		<section class="bg">
+			<nav>	
+				<label class="logo"><img src="img/SenneBruynseels_defLOGO.gif" alt=""></label>
+				<ul>
+					<li><a href="#wiezijnwij">Wie zijn wij?</a></li>
+					<li><a href="#video">Video</a></li>
+					<li><a href="#typoanimatie">Typoanimatie</a></li>
+					<li><a href="#fotoalbum">Fotoalbum</a></li>
+					<li><a href="#shop">Shop</a></li>
+				</ul>
+				<label id="icon" onclick="toggleMenu()">
+					<i class="fas fa-bars"></i>
+				</label>
+			</nav>
+			<h1>The fish paradise</h1>
+				
+			</section>
+	</header>
+	<main>
+		<div class="container-fluid">
+			<div class="row">		
+				<div class="col-lg-6 description item1">
+					<h3 id="wiezijnwij">WIE ZIJN WIJ?</h3>
+					<p>Wij zijn een jong dynamisch bedrijf dat zich volledig naar de eisen van de klant richt. Wij bieden tal van aquaria en vissoorten aan. Wij hopen u snel te mogen verwelkomen in onze winkel.</p>
+				</div>
+				<div class="col-lg-6 feat_img">
+					<img src="img/FOTO10.jpg" alt="fish">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 feat_img">
+					<div class="iframe-container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/omdLprrN1hY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				</div>
+				<div class="col-lg-6 description item2">
+					<h3 id="video">VIDEO</h3>
+					<p>Hier vindt u onze video die u volledig onderdompelt in de aquariumwereld.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 description item3">
+					<h3 id="typoanimatie">TYPOANIMATIE</h3>
+					<p>Hier vindt u het liedje dat gelinkt is aan ons hoofdassortiment, aquaria. Met de nodige animaties en tekst hebben wij ervoor gezorgd dat dit één van onze uithangborden is.</p>
+					</div>
+				<div class="col-lg-6 feat_img">
+					<div class="iframe-container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/jF0JKZGhnms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+				</div>
+				</div>
+			</div>
+				<section class="gallery min-vh-100">
+					<h3 id="fotoalbum">FOTOALBUM</h3>
+					<div class="container-lg">
+						<div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+							<div class="col">
+								<img src="img/FOTO1.jpg" class="gallery-item" alt="FOTO">
+							</div>
+							<div class="col">
+								<img src="img/FOTO2.jpg" class="gallery-item" alt="FOTO">
+							</div>
+							
+
+							<div class="col">
+								<img src="img/FOTO4.jpg" class="gallery-item" alt="FOTO">
+							</div>
+							<div class="col">
+								<img src="img/FOTO5.jpg" class="gallery-item" alt="FOTO">
+							</div>
+							<div class="col">
+								<img src="img/FOTO6.jpg" class="gallery-item" alt="FOTO">
+							</div>
+							<div class="col">
+								<img src="img/FOTO7.jpg" class="gallery-item" alt="FOTO">
+							</div>
+							<div class="col">
+								<img src="img/FOTO8.jpg" class="gallery-item" alt="FOTO">
+							</div>
+			
+
+							<div class="col">
+								<img src="img/FOTO10.jpg" class="gallery-item" alt="FOTO">
+							</div>
+							<div class="col">
+								<img src="img/FOTO11.jpg" class="gallery-item" alt="FOTO">
+							</div>
+							
+
+							<div class="col">
+								<img src="img/FOTO131.jpg" class="gallery-item" alt="FOTO">
+							</div>
+							<div class="col">
+								<img src="img/FOTO14.jpg" class="gallery-item" alt="FOTO">
+							</div>
+							<div class="col">
+								<img src="img/FOTO15.jpg" class="gallery-item" alt="FOTO">
+							</div>
+						</div>
+						
+					</div>
+					
+				</section>
+<!-- Modal -->
+<div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!--<h5 class="modal-title" id="exampleModalLabel">Modal title</h5></!-->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/FOTO1.jpg" class="modal-img" alt="modal img">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!----------------------------------- SHOP !------------------------------------------>
+
+		<div class="container">
+			<h3 id="shop">SHOP</h3>
+			<div class="row">
+
+				<div class="col-md-3">
+					<div class="product-top">
+						<img src="img/SHOP1.jpg" alt="FOTO">
+						<div class="overlay">
+							<button type="button"  class="btn btn-secondary shop-button" title="Snelle boodschap"><i class="fa fa-eye" aria-hidden="true"></i></button>
+							<button type="button"  class="btn btn-secondary shop-button" title="Verlanglijstje"><i class="fa fa-heart" aria-hidden="true"></i></button>
+							<button type="button"  class="btn btn-secondary shop-button" title="winkelmandje"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<h5>GOUDVIS</h5>
+						<h6>€ 20,99</h6>
+
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="product-top">
+						<img src="img/SHOP2.jpg" alt="FOTO">
+						<div class="overlay">
+							<button type="button"  class="btn btn-secondary shop-button" title="Snelle boodschap"><i class="fa fa-eye" aria-hidden="true"></i></button>
+							<button type="button"  class="btn btn-secondary shop-button" title="Verlanglijstje"><i class="fa fa-heart" aria-hidden="true"></i></button>
+							<button type="button"  class="btn btn-secondary shop-button" title="winkelmandje"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<h5>STEUR</h5>
+						<h6>€ 19,99</h6>
+
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="product-top">
+						<img src="img/SHOP3.jpg" alt="FOTO">
+						<div class="overlay">
+							<button type="button"  class="btn btn-secondary shop-button" title="Snelle boodschap"><i class="fa fa-eye" aria-hidden="true"></i></button>
+							<button type="button"  class="btn btn-secondary shop-button" title="Verlanglijstje"><i class="fa fa-heart" aria-hidden="true"></i></button>
+							<button type="button"  class="btn btn-secondary shop-button" title="winkelmandje"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<h5>ANEMOONVIS</h5>
+						<h6>€ 59,99</h6>
+
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="product-top">
+						<img src="img/SHOP4.jpg" alt="FOTO">
+						<div class="overlay">
+							<button type="button"  class="btn btn-secondary shop-button" title="Snelle boodschap"><i class="fa fa-eye" aria-hidden="true"></i></button>
+							<button type="button"  class="btn btn-secondary shop-button" title="Verlanglijstje"><i class="fa fa-heart" aria-hidden="true"></i></button>
+							<button type="button"  class="btn btn-secondary shop-button" title="winkelmandje"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<h5>BETTA</h5>
+						<h6>€ 34,99</h6>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>	
+	</main>
+	<footer>
+		<section class="contact">
+							<div class="content-contact">
+								<h3>Contacteer ons</h3 >	
+								<p>Heeft u nog vragen? Of wenst u graag nog extra informatie? Twijfel niet en contacteer ons via onderstaand contactformulier.</p>
+							</div>	
+							<div class="container-contact">
+								<div class="contactInfo">
+									<div class="box">
+										<div class="icon">
+											<i class="fa fa-compass" aria-hidden="true"></i>
+											</div>
+										<div class="text">
+											<h3>Adres</h3>
+											<p>Mechelsesesteenweg 181, 2860 Sint-Katelijne-Waver</p>
+										</div>
+									</div>
+									<div class="box">
+										<div class="icon">
+											<i class="fa fa-envelope" aria-hidden="true"></i>
+											</div>
+										<div class="text">
+											<h3>E-mail</h3>
+											<p>aqua.fish@gmail.com</p>
+										</div>
+									</div>
+									<div class="box">
+										<div class="icon">
+											<i class="fa fa-phone-square" aria-hidden="true"></i>
+										</div>
+										<div class="text">
+											<h3>Telefoon</h3>
+											<p>0477 45 4531</p>
+										</div>
+									</div>
+								</div>
+								<div class="contactForm">
+									<form>
+										<h2>Stuur je bericht</h2>
+										<div class="inputBox">
+											<input type="text" name="" required="required">
+											<span>Volledige naam</span>
+										</div>
+										<div class="inputBox">
+											<input type="text" name="" required="required">
+											<span>E-mail</span>
+										</div>
+										<div class="inputBox">
+											<textarea required="required"></textarea>
+											<span>Typ je bericht...</span>
+										</div>
+										<div class="inputBox">
+											<input type="submit" value="Verstuur">
+										</div>
+									</form>
+								</div>
+							</div>
+					</section>
+	</footer>
+	
+<script src="js/bootstrap.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="main.js"></script>
+<script>
+	function toggleMenu() {
+			$('ul').toggleClass('show');
+	}
+
+	$("nav a").each(function(index) {
+		$(this).on("click", function() {
+			toggleMenu();
+		});
+	});
+</script>
+<script src="js/wow.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
